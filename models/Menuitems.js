@@ -30,6 +30,7 @@ const menuitemsschema = new mongoose.Schema({
 
 })
 
+// for testing
 const Menuitems= mongoose.model('Menuitems',menuitemsschema);
 
 module.exports = Menuitems
